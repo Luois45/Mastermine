@@ -5,10 +5,29 @@ Here's all the code for anyone who is interested! Check out the tutorial below f
 
 Also, here are steps for a quick install via pastebin:
 
+4x Modems:
+1. `edit startup`
+2. `shell.run("gps host x y z")`
+3. `reboot`
+
+1x Repeater:
+1. `edit startup`
+2. `shell.run("repeat")`
+3. `reboot`
+
+Main Unit:
 1. Place your advanced computer next to a disk drive with a blank disk in.
 2. Run `pastebin get CtcSGkpc mastermine.lua`
 3. Run `mastermine disk`
-4. Run `disk/hub.lua`
+4. Edit `edit disk/hub_files/config.lua`
+5. Run `disk/hub.lua`
+
+Turtles:
+1. On the Main Unit: `lua` `os.getComputerID()` `exit()`
+2. `disk/turtle.lua`
+3. Enter the ID from 1
+4. Add fuel
+5. `refuel`
 
 ## Play with or without Peripherals:
 
